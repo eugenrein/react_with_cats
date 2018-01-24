@@ -1,0 +1,36 @@
+{
+  "name": "ReactWithCats",
+  "version": "0.0.1",
+  "description": "A sample React application",
+  "scripts": {
+    "lint": "eslint src",
+    "start": "node server.js"
+  },
+  "repository": "https://github.com/eugenrein/react_with_cats.git",
+  "keywords": [
+    "react",
+    "reactjs",
+    "cat"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.0",
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^6.10.3",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.4"
+  },
+  "dependencies": {
+    "babel-loader": "^7.0.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "main": "server.js"
+}
