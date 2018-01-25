@@ -22,7 +22,19 @@ module.exports = {
       {
         test: /\.css$/,
         loaders: ["style-loader", "css-loader"]
+      },
+      {
+        test: /\.(png|jpg|svg)$/,
+        use: {
+          loader: "file-loader",
+          options: {
+            name: "[path][name].[hash].[ext]"
+          }
+        }
       }
     ]
+  },
+  resolve: {
+    extensions: ['.js', '.jsx']
   }
-}
+};

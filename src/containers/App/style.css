@@ -1,0 +1,16 @@
+.app {
+  height: 667px;
+  width: 375px;
+  background-color: #fff;
+  border: #dfdfdf solid 1px;
+  -webkit-box-shadow: 1px 1px 15px #dfdfdf;
+  -moz-box-shadow: 1px 1px 15px #dfdfdf;
+  box-shadow: 1px 1px 15px #dfdfdf;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.cat-description {
+  padding-top: 10px;
+}

@@ -1,0 +1,7 @@
+.start-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  flex: 1 1 auto;
+}

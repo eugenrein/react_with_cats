@@ -1,0 +1,9 @@
+.card-image-wrapper {
+  display: flex;
+}
+.card-image {
+  width: 100%;
+  height: 350px;
+  background-position: center center;
+  background-size: cover;
+}
